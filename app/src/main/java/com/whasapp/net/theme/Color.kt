@@ -1,4 +1,4 @@
-package com.whasapp.net.ui.theme
+package com.whasapp.net.theme
 
 import androidx.compose.ui.graphics.Color
 

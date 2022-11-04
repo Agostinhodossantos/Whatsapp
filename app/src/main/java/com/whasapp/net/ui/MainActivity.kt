@@ -1,4 +1,4 @@
-package com.whasapp.net
+package com.whasapp.net.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.whasapp.net.ui.theme.WhasappTheme
+import com.whasapp.net.theme.WhasappTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
