@@ -16,6 +16,7 @@ import com.whasapp.net.theme.TealGreen
 import androidx.compose.ui.unit.*
 import com.google.accompanist.pager.*
 import com.whasapp.net.R
+import com.whasapp.net.ui.navigation.WhatsAppPagerContent
 import com.whasapp.net.ui.util.WhatsAppIcons
 import kotlinx.coroutines.launch
 
@@ -91,11 +92,12 @@ fun WhatsappTabPager(
             modifier = Modifier
                 .fillMaxSize()
         ) { page ->
-            Text(
-                text = tabItems[page],
-                modifier = Modifier.padding(50.dp),
-                color = Color.Blue
-            )
+            WhatsAppPagerContent(page = page)
+//            Text(
+//                text = tabItems[page],
+//                modifier = Modifier.padding(50.dp),
+//                color = Color.Blue
+//            )
         }
     }
 }

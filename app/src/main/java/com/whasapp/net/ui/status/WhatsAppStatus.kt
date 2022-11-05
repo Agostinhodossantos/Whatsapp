@@ -1,4 +1,4 @@
-package com.whasapp.net.ui.chats
+package com.whasapp.net.ui.status
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,12 +9,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun WhatsAppMessages() {
+fun WhatsAppStatus() {
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Chats")
+        Text(text = "Status")
     }
 }
