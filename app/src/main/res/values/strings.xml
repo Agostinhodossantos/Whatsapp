@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Whasapp</string>
+    <string name="tab1">Conversas</string>
+    <string name="tab2">Estados</string>
+    <string name="tab3">Chamadas</string>
+    <string name="tab4">Camera</string>
 </resources>
