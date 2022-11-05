@@ -13,8 +13,7 @@ import androidx.compose.ui.unit.sp
 import com.whasapp.net.R
 import com.whasapp.net.theme.TealGreen
 import com.whasapp.net.ui.util.WhatsAppIcons
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.ui.text.toUpperCase
+
 
 
 @OptIn(ExperimentalMaterial3Api::class)
