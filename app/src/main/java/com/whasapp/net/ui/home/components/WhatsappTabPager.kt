@@ -37,6 +37,7 @@ fun WhatsappTabPager(
         TabRow(
             selectedTabIndex = pagerState.currentPage,
             modifier = Modifier.background(color = Color.Transparent),
+            backgroundColor = TealGreen,
             indicator = { tabPositions ->
                 TabRowDefaults.Indicator(
                     Modifier
