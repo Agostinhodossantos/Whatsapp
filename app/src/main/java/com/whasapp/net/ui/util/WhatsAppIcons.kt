@@ -14,4 +14,5 @@ object WhatsAppIcons {
   var Video = Icons.Filled.VideoCall
   var Mic = Icons.Filled.Mic
   var Done = Icons.Default.Done
+  var DoneAll = Icons.Default.DoneAll
 }
