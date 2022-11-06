@@ -74,7 +74,8 @@ fun WhatsappTabPager(
                         Text(
                             text = title.uppercase(),
                             color = Color.White,
-                            style = MaterialTheme.typography.titleSmall
+                            style = MaterialTheme.typography.titleSmall,
+                            fontSize = 12.sp
                         )
                     } else {
                         Icon(

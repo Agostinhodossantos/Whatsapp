@@ -14,7 +14,6 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.whasapp.net.R
@@ -80,7 +79,7 @@ fun ItemChat(
                         text = lastMessage,
                         modifier = Modifier.padding(start = 5.dp),
                         maxLines = 1,
-                        overflow = TextOverflow.Ellipsis
+
                     )
                 }
             }

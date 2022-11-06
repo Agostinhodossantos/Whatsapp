@@ -4,4 +4,6 @@
     <string name="tab2">Estados</string>
     <string name="tab3">Chamadas</string>
     <string name="tab4">Camera</string>
+    <string name="status_subtitle">Tocar para adicionar actualizacao de estado</string>
+    <string name="status_title">O meu estado</string>
 </resources>
