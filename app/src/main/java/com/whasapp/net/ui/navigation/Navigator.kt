@@ -25,6 +25,6 @@ abstract class AppComposeNavigator : Navigator() {
         navigationCommands
             .onSubscription { this@AppComposeNavigator.navControllerFlow.value = navController }
             .onCompletion { this@AppComposeNavigator.navControllerFlow.value = null }
-            .collect { navController.handleComposeNavigationCommand(it) }
+            //.collect { navController.handleComposeNavigationCommand(it) }
     }
 }
