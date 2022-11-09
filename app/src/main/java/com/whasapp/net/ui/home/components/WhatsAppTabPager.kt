@@ -10,12 +10,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontWeight
 import com.whasapp.net.theme.TealGreen
 import androidx.compose.ui.unit.*
 import com.google.accompanist.pager.*
 import com.whasapp.net.R
+import com.whasapp.net.ui.navigation.AppComposeNavigator
 import com.whasapp.net.ui.navigation.WhatsAppPagerContent
 import com.whasapp.net.ui.util.WhatsAppIcons
 import kotlinx.coroutines.launch
@@ -23,7 +22,8 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalPagerApi::class, ExperimentalUnitApi::class)
 @Composable
 fun WhatsappTabPager(
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    composeNavigator: AppComposeNavigator
 ) {
     val tabItems = listOf(
         stringResource(R.string.tab4),

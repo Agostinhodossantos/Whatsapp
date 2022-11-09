@@ -5,15 +5,15 @@ import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 
 
-@Composable
-fun WhatsAppNavHost(
-    navHostController: NavHostController,
-    composeNavigator: AppComposeNavigator
-) {
-    NavHost(
-        navController = navHostController,
-        startDestination = WhatsAppScreens.Home.route
-    ) {
-
-    }
-}
+//@Composable
+//fun WhatsAppNavHost(
+//    navHostController: NavHostController,
+//    composeNavigator: AppComposeNavigator
+//) {
+//    NavHost(
+//        navController = navHostController,
+//        startDestination = WhatsAppScreens.Home.route
+//    ) {
+//
+//    }
+//}

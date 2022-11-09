@@ -7,12 +7,3 @@ import androidx.compose.ui.Modifier
 import com.whasapp.net.ui.home.components.WhatsAppTopBar
 import com.whasapp.net.ui.home.components.WhatsappTabPager
 
-@Composable
-fun HomeScreen(
-    modifier: Modifier = Modifier.fillMaxSize()
-) {
-    Column() {
-        WhatsAppTopBar()
-        WhatsappTabPager()
-    }
-}
